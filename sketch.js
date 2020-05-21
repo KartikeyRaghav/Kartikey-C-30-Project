@@ -262,7 +262,7 @@ function draw() {
     strokeWeight(2);
     text("SCORE : " + score, 700,40);
     fill("green");
-    textSize(20);
+    textSize(15);
     text("Write '?minute=' and then the time in minutes in the url to set the timer.",0,400);
     text("A default timer of 30 seconds is set.",0,450);
 
