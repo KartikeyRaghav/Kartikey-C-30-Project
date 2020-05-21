@@ -255,13 +255,15 @@ function draw() {
   text(mouseX + "," +  mouseY,10,15);
 
   if(gameState === "PLAY") {
-
     textSize(30);
     textFont("Algerian");
     fill("red");
     stroke("yellow");
     strokeWeight(2);
     text("SCORE : " + score, 700,40);
+    fill("green");
+    textSize(20);
+    text("You can set the timer by writing '?minute=' and then the time in minutes.",0,400);
 
     // Displaying the back
     back.display();
